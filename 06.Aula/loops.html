@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    
+    <p>
+        Elabore um algoritmo que calcule o que deve ser pago por um produto, considerando o preço
+        normal de etiqueta e a escolha da condição de pagamento. Utilize os códigos da tabela a seguir
+        para ler qual a condição de pagamento escolhida e efetuar o cálculo adequado.
+        Código Condição de pagamento
+    </p>
+
+    <ol type="1">
+        <li> À vista em dinheiro ou cheque, recebe 10% de desconto </li>
+        <li> À vista no cartão de crédito, recebe 15% de desconto</li>
+        <li> Em duas vezes, preço normal de etiqueta sem juros</li>
+        <li> Em três vezes, preço normal de etiqueta mais juros de 10%</li>
+    </ol>
+
+
+    
+
+        <fieldset style="display: inline-block;">
+            <legend>Formulário</legend>
+            <form action="">
+                <span>
+                    <label for="">Informe o preço: </label>
+                    <input type="number" name="campoPreco" id="campoPreco" value=""
+                    placeholder="Ex: 5.80" required min="1" >
+                </span>
+
+                <span>
+                    <label for="campoPagamnto">Método de pagamento</label>
+                    <select name="campoPagamnto" id="campoPagamnto" onchange="">
+                        <option value="" disabled>Selecione a forma de pagamento</option>
+                        <option value="dinheiro">Dinheiro</option>
+                        <option value="cheque">Cheque</option>
+                        <option value="cartao">Cartão de crédito</option>
+                    </select>
+                </span>
+
+                <span>
+                    
+                    <label for="campoParcelas">Quantidade de parcelas:</label>
+                    <select name="campoParcelas" id="campoParcelas" onchange="">
+                        <option value="" disabled>Selecione a quanridade de parcelas</option>
+                        <option value="1">1x</option>
+                        <option value="2">2x</option>
+                        <option value="3">3x</option>
+                        <option value="4">4x</option>
+                        <option value="5">5x</option>
+                        <option value="6">6x</option>
+                        <option value="7">7x</option>
+                        <option value="8">8x</option>
+                        <option value="9">9x</option>
+                        <option value="10">10x</option>
+                        
+                    </select>
+                </span>
+            </form>
+                <span>
+                    <button onclick="calculo()">Calcular</button>
+                </span>
+           
+            
+        </fieldset>
+    
+
+    <div>
+        <fieldset style="width: 100px;">
+            <legend>Resultado</legend>
+            <p id="result"></p>
+        </fieldset>
+    </div>
+
+
+    <script src="js/loops.js"></script>
+</body>
+</html>
