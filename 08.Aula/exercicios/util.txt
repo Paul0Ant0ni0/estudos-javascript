@@ -1,0 +1,51 @@
+1. Desenvolver um algoritmo que leia a altura de 15 pessoas. Este programa deverá calcular e
+mostrar :
+    a. A menor altura do grupo;
+    b. A maior altura do grupo;
+
+2. Escreva um algoritmo que leia um valor inicial A e imprima o seu fatorial
+
+3. Chama-se ano bissexto o ano ao qual é acrescentado um dia extra, ficando ele com 366
+dias, um dia a mais do que os anos normais de 365 dias, ocorrendo a cada quatro anos.
+Escreva um programa que verifique se um ano é bissexto. Um ano é bissexto se ele é
+divisível por 4. Entretanto, se o ano é divisível por 100, ele não é bissexto. Mas, se ele fordivisível por 400, ele volta a ser bissexto.
+    a. São bissextos os anos: 1600, 1996, 2000, 2004, 2008, 2012, 2016, 2400, 2800, ...
+    b. Não são bissextos: 1500, 1974, 1982, 1983, 1990, 2018, 2022, 2030, 2038, ...
+
+4. Escreva um programa que leia uma letra e mostre se ela é vogal ou consoante
+
+5. Crie um código que receba 3 valores do comprimento de um triângulo e depois mostre um alert informando se o triângulo é equilátero, isóceles ou escaleno.
+NOVO
+[16:07]
+6. Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma seqüência em
+P.A. contendo 10 valores.
+
+7. Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma seqüência em
+P.G. contendo 10 valores.
+
+8. Sabendo que latão é constituído de 70% de cobre e 30% de zinco, indique a quantidade de
+cada um desses componentes para se obter uma certa quantidade de latão (requerida pelo
+usuário).
+
+9. Leia a velocidade máxima permitida em uma avenida e a velocidade com que o motorista
+estava dirigindo nela e calcule a multa que uma pessoa vai receber, sabendo que são
+pagos: 
+    a) 50 reais se o motorista estiver ultrapassar em até 10km/h a velocidade permitida (ex.: velocidade máxima: 50km/h; motorista a 60km/h ou a 56km/h); 
+    b) 100 reais, se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida. c) 200 reais, se estiver
+    acima de 31km/h da velocidade permitida.
+
+10. Uma Cia de pulverização utiliza avião para pulverizar lavouras. Os custos de
+pulverização dependem do tipo de praga e da área a ser contratada conforme a tabela:
+Tipo 1 – ervas daninhas R$ 50,00 por acre;
+Tipo 2 – gafanhotos R$ 100,00 por acre;
+Tipo 3 – broca R$ 150,00 por acre;
+Tipo 4 – todos acima R$ 250,00 por acre.
+Se a área a ser pulverizada for superior a 1000 acres, o fazendeiro tem um desconto de
+5%. Em adição, qualquer fazendeiro cujo custo for maior do que R$ 750,00 tem um
+desconto de 10% sobre o valor que ultrapassar os R$ 750,00. Caso ambos os descontos se
+aplicam o da área é calculado antes. Fazer um algoritmo que leia: o tipo de pulverização
+(1 a 4) e área a ser pulverizada; e imprima o valor a ser pago.
+
+11. Leia um número binário e transforme-o em decimal
+
+Conversar em #╰☕✦javascript
