@@ -30,4 +30,5 @@ for(let s of decimal){
 */
 //let valorDecimal = decimal.join('')
 console.log(valorDecimal)
+pessoa.nome = 'Pablo Escobar'
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+    <div>
+
+        <h1>Atividade</h1>
+        <p>Crie um algortimo que recebe informações de 15 produtos.
+            Cada produto possui nome, marca, uma foto (link de uma imagem da internet),
+            preço unitário e a quantidade de produtos em estoque. Ao receber essas informações 
+            dos produtos, imprima no HTML essas informações de cada produto e o produto entre o
+            preço e a quantidade de produtos em estoque (preço total).</p>
+
+    
+    </div>
+
+    <fieldset>
+        <legend></legend>
+        <form action="">
+            <div>
+                <label for="campoImg">Imagem:</label>
+                <input type="url" name="campoImg" id="campoImg" placeholder="Digite a url da imagem" value="">
+            </div>
+            <div>
+                <label for="campoProduto">Produto:</label>
+                <input type="text" name="campoProduto" id="campoProduto" placeholder="Digite o nome do produto" value="">
+            </div>
+            <div>
+                <label for="campoMarca">Marca:</label>
+                <input type="text" name="campoMarca" id="campoMarca" placeholder="Digite a marca do produto" value="">
+            </div>
+            <div>
+                <label for="campoPreco">Preço:</label>
+                <input type="number" name="campoPreco" id="campoPreco" placeholder="Digite o preço do produto" value="">
+            </div>
+            <div>
+                <label for="campoQuantidade">Quantidade:</label>
+                <input type="number" name="campoQuantidade" id="campoQuantidade" placeholder="Digite a quantidade" value="" title="Produto no estoque">
+
+            </div>
+        </form>
+        <div>
+            <button  onclick="adicionar()">ENVIAR</button>
+        </div>
+    </fieldset>
+    
+
+    <div class="container">
+        <div class="card-produtos">
+            <img src="https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg" class="img-produto">
+            <h3 class="nome-produto">Smartphone Galaxy a3</h3>
+            <p class="marca">Marca: Samsung</p>
+            <p class="quantidade">Quantidade estoque: 1.500</p>
+            <p class="preco">Preço unitário: R$ 258,00</p>
+            <p class="precototal">Total: R$ 2.850,87</p>
+        </div>
+        <div class="card-produtos">
+            <img src="https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg" class="img-produto">
+            <h3 class="nome-produto">Smartphone Galaxy a3</h3>
+            <p class="marca">Marca: Samsung</p>
+            <p class="quantidade">Quantidade estoque: 1.500</p>
+            <p class="preco">Preço unitário: R$ 258,00</p>
+            <p class="precototal">Total: R$ 2.850,87</p>
+        </div>
+        <div class="card-produtos">
+            <img src="https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg" class="img-produto">
+            <h3 class="nome-produto">Smartphone Galaxy a3</h3>
+            <p class="marca">Marca: Samsung</p>
+            <p class="quantidade">Quantidade estoque: 1.500</p>
+            <p class="preco">Preço unitário: R$ 258,00</p>
+            <p class="precototal">Total: R$ 2.850,87</p>
+        </div>
+
+        <div class="card-produtos">
+            <img src="https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg" class="img-produto">
+            <h3 class="nome-produto">Smartphone Galaxy a3</h3>
+            <p class="marca">Marca: Samsung</p>
+            <p class="quantidade">Quantidade estoque: 1.500</p>
+            <p class="preco">Preço unitário: R$ 258,00</p>
+            <p class="precototal">Total: R$ 2.850,87</p>
+        </div> 
+        
+    </div>
+
+    <script src="js/ex.js"></script>
+
+</body>
+
+</html>
