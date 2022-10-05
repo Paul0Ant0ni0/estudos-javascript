@@ -1,0 +1,9 @@
+
+
+d-flex - tipo de display
+flex-column - flex direction
+m-3 - margin
+me-3  margin end | margin a direita
+mx margin x | margin na esquerda e direita
+my margin y | margin na top
+flex-grow-1: aumenta o elemnto com base no seu conteúdo

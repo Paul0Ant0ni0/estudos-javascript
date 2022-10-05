@@ -3,7 +3,7 @@
  * 
  */
 
-let clickBtn = 0
+let contador = 0
 
 function mostrarAlerta(){
     /** O objeto domcument é um objeto que faz representação do HTML no seu site dentro do javascript */
@@ -11,7 +11,8 @@ function mostrarAlerta(){
      * getElementBy serve para pegar um elemento HTML pelo seu id
      */
     const divAlerta = document.getElementById('alerta')
-    const resp = document.getElementById('resp')
+    const paragrafoAlerta = document.getElementById('alerta-conteudo')
+    paragrafoAlerta.innerText = `Voçe já clicou ${contador++} vezes no botão`
     /**
      * A propriedade classList retorna um array com todas as classes CSS que um elemento possui
      */
@@ -20,16 +21,8 @@ function mostrarAlerta(){
      * classList.add() serve para adicionar novas classes dinamicamente dentro de um elemento 
      * html
      */
-   
-    
-  
 
     divAlerta.classList.add('mostrar')
-    clickBtn++
-
-
-    let result = resp.inn= `Você clicou ${clickBtn}`
-    return result
    
 }
 
